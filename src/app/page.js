@@ -30,6 +30,14 @@ export default function Home() {
         <button className='p-3 bg-amber-500 '>Go to Login</button>
         </Link>
 
+         <Link href={"/productlist"}>
+        <button className='p-3 bg-amber-500 '>Go to Product Page</button>
+        </Link>
+
+        <Link href={"/posts"}>
+        <button className='p-3 bg-amber-500 '>See Posts</button>
+        </Link>
+
       <button onClick={handleSubmit} className="p-3 bg-amber-700">Submit</button>
       </main>
   );
